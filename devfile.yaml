@@ -2,11 +2,11 @@ apiVersion: 1.0.0
 metadata:
   generateName: quarkus-shw-
 projects:
-  - name: state-machine-assistant
+  - name: ronin-2
     source:
       location: 'https://github.com/cvicens/4ronin-2.git'
       type: git
-      branch: master
+      branch: main
 components:
   - id: redhat/quarkus-java11/latest
     type: chePlugin
